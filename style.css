@@ -190,32 +190,24 @@ ul li a:hover{
 
 .Form-section{
     display: flex;
-    padding-top: 80px;
-    margin-left: 150px;
-    margin-right: 120px;
     padding-bottom: 70px;
 }
-.Form-section h1{
+.Form-section img{
+    padding-top: 80px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.feedBack{
+    padding-right: 160px;
+    padding-top: 140px;
+}
+.feedBack h1{
     text-align: center;
-    padding: 10px 0;
-    padding-top: 120px;
-}
-.Form-section a{
-    text-decoration: none;
-    background-color: orange;
-    display: inline-block;
-    padding: 15px 50px;
-    border-radius: 12px;
-    margin-top: 5px;
-}
-.feedback-form{
-    margin-left: 80px;
+    padding: 20px 0;
+    font-size: 35px;
 }
 
-
-
-
-input[type=text], select {
+.FeedBack-form {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -224,13 +216,13 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
-
-
-
-
-
-
+  #Submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+  }
 
 footer{
     background-color:rgb(13, 18, 44);
@@ -249,3 +241,25 @@ footer p{
     color: white;
     padding-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

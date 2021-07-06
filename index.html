@@ -207,30 +207,23 @@
         <div>
             <img src="img/female/image.png" alt="">
         </div>
-        <div class="feedback-form">
-            <form>
+        <div class="feedBack">
+            <form action="/action_page.php">
                 <h1>FeedBack</h1>
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Email</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="Bangladesh">Bangladesh</option>
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-                <option value="cambodia">cambodia</option>
-                <option value="india">india</option>
-                <option value="Singapore">Singapore</option>
-              </select>
-            
-              <a href="#">Send</a>
+                <label for="fname">*First Name :</label>
+                <input class="FeedBack-form" type="text" placeholder="Enter Your First Name..">
+
+                <label for="lname">*Last Name :</label>
+                <input class="FeedBack-form" type="text" placeholder="Enter Your Last Name..">
+
+                <label for="lname">*Email :</label>
+                <input class="FeedBack-form" type="email" placeholder="Enter Your Email..">
+
+                <textarea name="" id="" cols="80" rows="5" placeholder="Enter Your Message Here"></textarea>
+
+                <input class="FeedBack-form" id="Submit-button" type="submit" value="Send">
             </form>
-          </div>
-          
+        </div>
     </section>
     <!-- **********footer-section **********-->
     <footer>
@@ -240,6 +233,8 @@
         </h1>
         <p>Eat healthy to live healthily. Live healthy to live happy.</p>
     </footer>
+
+
 
 </body>
 
