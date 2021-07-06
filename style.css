@@ -46,11 +46,9 @@ ul li a:hover{
 
 
 
-
-
 .header-section{
     display: flex;
-    padding-top: 70px;
+    padding-top: 20px;
     background-image: url(img/shapes/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -104,7 +102,7 @@ ul li a:hover{
 }
 .about-half-width h1{
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .about-half-width p{
     padding-top: 55px;
@@ -113,7 +111,7 @@ ul li a:hover{
     text-align: justify;
 }
 .about-half-width a{
-    margin-top: 70px;
+    margin-top: 40px;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -193,23 +191,45 @@ ul li a:hover{
 .Form-section{
     display: flex;
     padding-top: 80px;
-    margin-left: 250px;
+    margin-left: 150px;
     margin-right: 120px;
     padding-bottom: 70px;
 }
+.Form-section h1{
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 120px;
+}
+.Form-section a{
+    text-decoration: none;
+    background-color: orange;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+.feedback-form{
+    margin-left: 80px;
+}
 
-.Form-section img{
-    width: 80%;
-}
-.Form-section form {
-    padding-top: 80px;
-    padding-left: 40px;
 
-}
-.Form-section form input{
-    padding: 15px 70px;
-    border-radius: 13px;
-}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+
+
+
+
 
 
 footer{
