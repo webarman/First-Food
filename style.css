@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Lora', serif;
+}
 .header-section{
     display: flex;
     padding-top: 70px;
@@ -13,7 +16,7 @@
     margin-left: 150px;
 }
 #header-half-width1 h1{
-    font-size: 55px;
+    font-size: 45px;
     margin-top: 100px;
 }
 #header-half-width1 p{
